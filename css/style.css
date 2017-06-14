@@ -1,0 +1,195 @@
+@font-face {font-family: 'lato_r';src: url('../fonts/Lato-Regular.ttf');}
+@font-face {font-family: 'lato_l';src: url('../fonts/Lato-Light.ttf');}
+@font-face {font-family: 'lato_b';src: url('../fonts/Lato-Bold.ttf');}
+body{font-family:'lato_r';color: #474541;}
+img{max-width:100%;}
+a{color: #474541;}
+/******************************		Menu	********************************/
+.lf_menu{background:#fff;box-shadow: none;height: 80px;border-bottom: 1px solid #dcdcdc;padding: 10px 0;}
+.lf_menu ul li a{color: #a35b26;font-weight: 400;transition:.3s;}
+.lf_menu ul.side-nav li.side_logo{padding: 15px;}
+.lf_menu ul.side-nav{z-index:9999;}
+.lf_menu ul.side-nav li a{color: #303030;}
+.lf_menu ul.side-nav li.active a,
+.lf_menu ul.side-nav li a:hover{color: #efb23b;border: none;}
+.lf_menu ul li.active{background:none;}
+.lf_menu ul li:hover{background:none;}
+.lf_menu img.logolv{max-width:100%;height:100%;}
+.lf_menu ul li a:hover,
+.lf_menu ul li.active a{color:#efb23b;border-bottom:2px solid #efb23b;padding: 0;margin: 0 15px;transition:.3s;}
+.lang_flag{width: 90px;position: absolute;text-align: right;top: 11px;right: 3%;}
+.lang_flag .lng{display: inline-block;width:20px;}
+.lang_flag .lng img{}
+.lang_flag .lng a{cursor: pointer;}
+/******************************		category	********************************/
+.category .card-content p{text-align: center;height: 50px;}
+.category .col{padding: 0 5px;}
+.category{padding-top: 80px;}
+.category .card:hover,
+#inv_post .card:hover{position:relative;z-index:99;opacity:.7;-ms-transform: scale(1.1);-webkit-transform: scale(1.1);transform: scale(1.1);transition:.6s;}
+/******************************		companies	********************************/
+hr{height:1px;background:#dcdcdc;width:100%;border:none;margin: 0;padding: 0;}
+.companies{background:#f8f6f3;}
+.companies h1{font-size:30px;text-align: center;margin:0;padding-top: 50px;font-weight:100;}
+.companies_m_bot{margin-bottom:0;}
+.companies img{display: block;margin: 70px auto 50px;height: 50px;width:auto;opacity:.5;}
+/******************************		news	********************************/
+.news h1{font-size:40px;text-align: left;margin:0;padding: 50px 0;font-weight:100;}
+.news .caption{width: 100% !important;top: 0 !important;left: 0 !important;height: 100%;padding: 260px 30px 0px 30px;
+	background: -webkit-linear-gradient(rgba(0, 0, 0, .2) 50%, rgba(0, 0, 0, .8) 85%); 
+  	background: -o-linear-gradient(rgba(0, 0, 0, .2) 50%, rgba(0, 0, 0, .8) 85%); 
+  	background: -moz-linear-gradient(rgba(0, 0, 0, .2) 50%, rgba(0, 0, 0, .8) 85%); 
+  	background: linear-gradient(rgba(0, 0, 0, .2) 50%, rgba(0, 0, 0, .8) 85%); 
+	}
+.news .caption h3{font-size:20px;}
+.news .caption h5{font-size:15px;}
+.news .card-content h3{font-size:18px;margin-top:0;}
+.news .card-content h5{font-size:13px;color:#a4a3a0;}
+.news .card-content p{font-size:15px;color:#787369; margin-top:15px;}
+.news .card-image .bg_link a{color: #FFF;width: 100%;font-size: 15px;text-align: center;height: 98%;top:0;padding: 26.8% 0;
+	background: -webkit-linear-gradient(rgba(239, 178, 59, .5) 50%, rgba(163, 91, 38, .9) 85%); 
+  	background: -o-linear-gradient(rgba(239, 178, 59, .5) 50%, rgba(163, 91, 38, .9) 85%); 
+  	background: -moz-linear-gradient(rgba(239, 178, 59, .5) 50%, rgba(163, 91, 38, .9) 85%); 
+  	background: linear-gradient(rgba(239, 178, 59, .5) 50%, rgba(163, 91, 38, .9) 85%); 
+	}
+.news .card-image .bg_link a span{font-weight:bold;border-radius: 2px;border: 2px solid #FFF;padding: 8px 0;width: 100px;display: block;margin: 0 auto;}
+.news .card-image .bg_link{opacity:0;transition:.4s;}
+.news .card:hover .bg_link{opacity:1;transition:.4s;}
+.news .container{margin-bottom: 50px;}
+/******************************		contact		********************************/
+.contact h1,.contact_inv h1{font-family:'lato_l';font-size:25px;text-align: center;margin:0;padding: 50px 0;font-weight:100;}
+.contact h1 span,.contact_inv h1 span{font-family:'lato_r';font-weight:bold;}
+.contact a, .contact_inv a{font-family:'lato_l';text-align: center;margin: 10px auto 50px;display: block;width: 150px;border: 2px solid gray;padding: 8px 0;font-size: 20px;}
+.contact .cadr h3{color:#a4a3a0;font-size: 15px;margin: 0;line-height: 25px;}
+.contact .cadr{padding: 30px;width: 330px;margin-top: -260px;position: relative;margin-left: 10px;}
+.contact .maps_info{height: 450px;overflow: hidden;}
+/******************************		investment page 	********************************/
+.contact_inv{background: #f8f6f3;height: 150px;padding-top: 50px;}
+.contact_inv a {margin: 0 auto;width: 90%;}
+.contact_inv h1{padding: 0;text-align: center;margin-top: 10px;}
+.investment,
+.investment .slides {font-family:'lato_l';height: 150px;}
+.investment .slides li .caption{width: 100%;left: 0;padding-left: 15%;height: 100%;top: 0;padding-top: 27px;
+	background: -webkit-linear-gradient(rgba(187, 110, 0, .7) 30%, rgba(225, 164, 0, .6) 100%); 
+  	background: -o-linear-gradient(rgba(187, 110, 0, .7) 30%, rgba(225, 164, 0, .6) 100%); 
+  	background: -moz-linear-gradient(rgba(187, 110, 0, .7) 30%, rgba(225, 164, 0, .6) 100%); 
+  	background: linear-gradient(rgba(187, 110, 0, .7) 30%, rgba(225, 164, 0, .6) 100%); 
+}
+.companies_inv hr{transform:rotate(90deg);-ms-transform: rotate(90deg);-webkit-transform: rotate(90deg);}
+.desc p{width: 500px;margin: 80px auto;}
+.companies_inv{background: #f8f6f3;height: 340px;padding: 20px 0;}
+.nn_height .companies_inv{height: auto !important;}
+.companies_inv h1{text-align: center;font-size: 25px;font-family: 'lato_l';margin-top: 10px;}
+.companies_inv .companies_ctg{text-align: center;}
+.companies_inv .companies_ctg img{height: 70px;}
+.companies_inv .companies_ctg p{height: 80px;}
+.nn_height .companies_inv .companies_ctg p{height: auto !important;}
+.companies_inv .companies_ctg a{transition:.6s;background: #FFF;border:1px solid #dcdcdc;color:#af5300;width: 100px;font-size: 14px;padding: 5px 0;}
+.companies_inv .companies_ctg a:hover{background: #af5300;color:#fff;transition:.6s;}
+.companies_inv span{width: 1px;height: 170px;background: #dcdcdc;display: block;margin: 20px auto;}
+h1.title{text-align: center;font-size: 25px;font-family: 'lato_l';}
+#inv_post .card-content p{text-align: center;height: 50px;}
+.companies_inv .desc p{margin: 10px auto;}
+/******************************		News page 	********************************/
+.news_title{background: #f8f6f3;}
+.news_title h1{font-size: 18px;margin: 20px auto;}
+.news_content{width: 650px;margin:0 auto;padding-top: 30px;}
+.news_content h1{text-align: center;font-size: 35px;}
+.news_content h6{text-align: center;font-size: 12px;color:#787369;padding:2px 0;margin:0 auto;display:block;width:200px;background: #f8f6f3;font-family: 'lato_l';}
+.news_content span{margin:0 6px;}
+.news_content img{width: 100%;margin: 40px 0 20px 0;}
+.news_content p{font-size: 13px;line-height: 25px;}
+.news_content .para_sp{background:#f8f6f3;padding: 20px 50px;}
+.news_content .para_sp p{font-size: 16px;font-family: 'lato_b';}
+.news_content .para_sp p img{width:20px;margin: -19px 14px 20px -34px;}
+.news_content h2{font-size: 18px;}
+.news_content h3{font-size: 15px;font-family: 'lato_b';}
+.news_content h3 i{margin:0 8px;text-align: center;font-size: 12px;color:#787369;padding:2px 8px;background: #f8f6f3;font-family: 'lato_l';}
+.news_content .image_cadr{margin:20px 0;width: 30%;height:90px;overflow: hidden;}
+.news_content .image_cadr img{margin: 0;height: 90px;}
+.news_content .text_cadr{margin:20px 0;width: 70%;height:90px;overflow: hidden;border: 1px solid #dcdcdc;padding:4px 8px;}
+.news_content .text_cadr h5{font-size:15px;margin-bottom: 3px;}
+.news_content .text_cadr a{font-size:12px;color:#787369;}
+/******************************		About page 	********************************/
+.about_content p{padding-bottom: 50px;margin:20px 0 0 0;}
+.about_model p span{font-family: 'lato_b';margin: 0;}
+.about_model p{padding-bottom: 0;margin: 0;}
+.about_model p.first_p{margin-bottom: 30px;}
+.about_model p.last_p{margin-bottom: 50px;}
+.about_content h1{font-size: 25px;font-family: 'lato_l';margin-top:15px;margin-bottom: 35px;}
+.about_maps{background:url(../images/world_maps.jpg) no-repeat center;text-align: center;background-size: cover;}
+.about_team{background:url(../images/team.jpg) no-repeat top center;text-align: center;background-size: cover;}
+.about_team p{padding-bottom: 80px;font-size: 16px;letter-spacing:1px;}
+/******************************		Contact page 	********************************/
+.contact_form input[type=text]:focus,
+.contact_form input[type=email]:focus{border-bottom: 2px solid #efb23b;}
+.contact_form textarea:focus{border-bottom: 2px solid #efb23b;}
+.contact_form input,
+.contact_form textarea{border:1px solid #dcdcdc;padding-left:15px; font-size: 15px;}
+.contact_form textarea{width: 103%;padding-top: 10px;height:200px;}
+.contact_form{margin-top:30px;margin-bottom:50px;}
+.contact_form form input.send_btn{text-align: center;margin: 0 auto;display: block;padding: 8px 50px;background: none;border: 1px solid #474541;}
+::-webkit-input-placeholder {color:#474541;}
+:-moz-placeholder {color:#474541;}
+::-moz-placeholder {color:#474541;}
+:-ms-input-placeholder {color:#474541;}
+/******************************		Career 	********************************/
+.career_t p{margin: 0 0 50px 0;}
+.career_post{height: auto;padding: 40px 0;}
+.career_post .post_box{border: 1px solid #dcdcdc;height: 150px;margin-top: 20px;padding: 35px 5px 0px;}
+.career_post .post_box h2{font-size: 15px;height: 40px;margin: 0;}
+.career_post .post_box a{border: 1px solid #dcdcdc;background: rgba(0,0,0,.05);padding: 5px 9px;font-size: 12px;margin-top: 10px;transition:.6s;}
+.career_post .post_box a:hover{color: #fff;background: #eeb600;transition:.6s;}
+.career_offer{padding: 40px 0;background:url(../images/c_offer.jpg) no-repeat top center;text-align: center;background-size: cover;}
+.career_offer .row{background: rgba(255, 255, 255, 0.8);}
+.career_offer h1{font-size: 25px;font-family: 'lato_l';margin-top:40px;margin-bottom: 50px;}
+.career_offer h2{font-size: 15px;font-family: 'lato_b';margin-top:20px;margin-bottom: 30px;}
+.career_offer p{font-size: 13px;font-family: 'lato_l';margin-top:20px;margin-bottom: 30px;}
+/******************************		footer		********************************/
+footer .row{margin-bottom: 0;}
+footer img{opacity:.3;width: 80%;margin-top: 20px;}
+footer h1{font-size:13px;}
+footer ul li a{color:#a4a3a0;font-size: 11px;}
+footer ul li a:hover{color: #474541;}
+footer ul li{display: inline;color:#a4a3a0;margin-right: 2px;}
+/*responsive*/
+@media screen and (max-device-width: 800px) {
+  html { background: url(../images/paris.jpg) #000 no-repeat center center fixed; }
+  #bgvid { display: none; }
+}
+@media only screen and (max-width : 600px) {
+	.slider_img .slides li .caption h2,
+	.slider_img .slides li .caption h1{font-size: 25px !important;}
+	.slider_img .slides li .caption {top: 0 !important;}
+	.contact .caption .cadr {width: 132%;left: -15%;}
+	.contact .cadr{display: none;}
+	.contact_inv a {margin: 20px auto !important;width: 150px !important;}
+	.contact_inv {height: 215px;}
+	.contact_inv h1 {font-size: 22px;}
+	.investment .slides li .caption{padding-left: 4% !important;}
+	.desc p{width: 100% !important;}
+	.companies_inv .companies_ctg p{height: 90px !important;}
+	.companies_inv span {width: 80% !important;height: 1px !important;}
+	.companies_inv {height: 595px !important;}
+	.nn_height .companies_inv{height: auto !important;}
+	.news_content{width: 92% !important;}
+	.career_post{height: auto !important;}
+	.lang_flag {top: 38px !important;right: 6% !important;}
+}
+@media only screen and (max-width : 993px) {
+	.slider_img .slides li .caption h2,
+	.slider_img .slides li .caption h1{font-size: 40px;}
+	.slider_img .slides li .caption {top: 10;}
+	.contact_inv h1 {margin-top: -4px;}
+	.investment .slides li .caption{padding-left: 7%;}
+	.companies_inv .companies_ctg p {height: 95px;}
+	.news_content{width: 500px;}
+	.news_content .image_cadr{height:75px;}
+	.news_content .image_cadr img{height: 75px;}
+	.news_content .text_cadr{height:75px;padding:3px 7px;}
+	.news_content .text_cadr h5{font-size:13px;}
+	.news_content .text_cadr a{font-size:11px;}
+	.contact_form textarea{width: 104%;}
+	.career_post{height: auto;}
+	.lang_flag{right:14%;}
+}
